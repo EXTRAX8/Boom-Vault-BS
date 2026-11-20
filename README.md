@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💣 BlastCore Mods 💣
+# 💣 Boom-Vault-BS 💣
 **The Ultimate & Organized BombSquad Modding Vault for All Versions**
 
 [![Game](https://shields.io)](#)
@@ -15,22 +15,23 @@
 
 ## 📖 About
 
-**BlastCore Mods** is a clean, organized archive of **BombSquad** scripts, custom maps, characters, and mini-games. Every mod is strictly sorted by its compatible game version to prevent crashes and script errors.
+**Boom-Vault-BS** is a clean, organized archive of **BombSquad** scripts, custom maps, characters, and mini-games. Every mod is strictly sorted by its compatible game version and API to prevent crashes and script errors.
 
 ---
 
 ## 📂 Structure
 
 ```text
-📦 BlastCore-Mods
- ┣ 📂 v1.7.x-Latest/        # Modern Engine (Ballistica API)
+📦 Boom-Vault-BS
+ ┣ 📂 v1.8.x-Latest/        # Latest Engine (Ballistica API 9)
  ┃ ┣ 📂 Scripts-Plugins/    # Gameplay mods & custom bombs (.py)
  ┃ ┣ 📂 Custom-Maps/        # New arenas & textures (.py, .bob, .ktx)
  ┃ ┣ 📂 Characters/         # Custom fighters & voices (.py, .cob)
  ┃ ┣ 📂 Mini-Games/         # New game modes (.py)
  ┃ ┗ 📂 Server-Tools/       # Admin commands & lobby tools (.py)
  ┃
- ┣ 📂 v1.6.x/               # Mid-gen releases
+ ┣ 📂 v1.7.x/               # Modern Engine (Ballistica API 8)
+ ┣ 📂 v1.6.x/               # Mid-gen releases (API 7)
  ┣ 📂 v1.5.x/               # Early modern releases
  ┗ 📂 Classic-1.4.x/        # Legacy builds (1.4.148 & older)
 ```
@@ -41,10 +42,11 @@
 
 Check your game version on the main menu before downloading:
 
-| Folder | Game Versions | Python Engine | Status |
+| Folder | Game Versions | Engine / API | Status |
 | :--- | :--- | :--- | :--- |
-| **`v1.7.x-Latest`** | `1.7.0` ➔ `Latest` | Python 3.10+ | 🟢 Active |
-| **`v1.6.x`** | `1.6.0` ➔ `1.6.11` | Python 3.8 | 🟡 Stable |
+| **`v1.8.x-Latest`** | `1.8.0` ➔ `Latest` | Python 3.11+ (API 9) | 🟢 Active |
+| **`v1.7.x`** | `1.7.0` ➔ `1.7.62` | Python 3.10+ (API 8) | 🟢 Supported |
+| **`v1.6.x`** | `1.6.0` ➔ `1.6.11` | Python 3.8 (API 7) | 🟡 Stable |
 | **`v1.5.x`** | `1.5.0` ➔ `1.5.29` | Python 3.7 | 🟡 Stable |
 | **`Classic-1.4.x`** | `1.4.148` & older | Python 2.7 | 🟠 Legacy |
 
@@ -52,11 +54,11 @@ Check your game version on the main menu before downloading:
 
 ## 🚀 Installation
 
-### 📱 Android
+### 📱 Android (Mobile / TV)
 1. Download the mod files matching your game version.
 2. Open BombSquad ➔ **Settings** ➔ **Advanced** ➔ **Show Mods Folder**.
 3. Move the downloaded files into the `mods` folder.
-4. Restart the game. *(For `v1.7+`, enable the mod inside **Settings ➔ Advanced ➔ Plugins**)*.
+4. Restart the game. *(For `v1.7+` & `v1.8+`, enable the mod inside **Settings ➔ Advanced ➔ Plugins**)*.
 
 ### 💻 PC (Windows / macOS / Linux)
 1. Download the mod files matching your game version.
@@ -67,8 +69,8 @@ Check your game version on the main menu before downloading:
 
 ## 🛠️ FAQ
 
-* **Game crashes on startup?** Remove the last added file from your `mods` folder; it is likely incompatible with your version.
-* **Can't access `Android/data` on Android 11+?** Use the in-game **Show Mods Folder** button or **ZArchiver + Shizuku**.
+* **Game crashes on startup?** Remove the last added file from your `mods` folder; it is likely incompatible with your version or API.
+* **Can't access `Android/data` on Android 11+?** Use the in-game **Show Mods Folder** button or a file manager that supports data access.
 * **Do mods work in multiplayer?** Server scripts and mini-games work for everyone in your lobby; custom skins/maps require all players to have the files.
 
 ---
@@ -87,6 +89,6 @@ This is an independent community archive and is not affiliated with **Froemling 
 
 <div align="center">
 
-### ⭐ Star this repository if you find it useful! ⭐
+### ⭐ Star Boom-Vault-BS if you find it useful! ⭐
 
 </div>
