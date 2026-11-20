@@ -4,10 +4,11 @@
 **The Ultimate & Organized BombSquad Modding Vault for All Versions**
 
 [![Game](https://shields.io)](#)
+[![Creator](https://shields.io)](#)
 [![Language](https://shields.io)](#)
 [![Versions](https://shields.io)](#)
 
-[About](#-about) • [Structure](#-structure) • [Compatibility](#-compatibility) • [Installation](#-installation) • [FAQ](#-faq) • [Contributing](#-contributing)
+[About](#-about) • [Creator](#-creator-profile) • [Structure](#-structure) • [Compatibility](#-compatibility) • [Installation](#-installation) • [FAQ](#-faq)
 
 </div>
 
@@ -16,6 +17,18 @@
 ## 📖 About
 
 **Boom-Vault-BS** is a clean, organized archive of **BombSquad** scripts, custom maps, characters, and mini-games. Every mod is strictly sorted by its compatible game version and API to prevent crashes and script errors.
+
+---
+
+## 👨‍💻 Creator Profile
+
+<div align="center">
+
+| 🛡️ Developer | 🎮 Specialty | ⚙️ Primary Engine | 🚀 Project Mission |
+| :--- | :--- | :--- | :--- |
+| **EXTRAX8** | BombSquad Modding & Server Development | Ballistica Engine (API 9 / Python 3) | Building custom gameplay plugins, bots, and server tools while preserving mods for all versions. |
+
+</div>
 
 ---
 
@@ -89,6 +102,6 @@ This is an independent community archive and is not affiliated with **Froemling 
 
 <div align="center">
 
-### ⭐ Star Boom-Vault-BS if you find it useful! ⭐
+### ⭐ Star Boom-Vault-BS by EXTRAX8 if you find it useful! ⭐
 
 </div>
